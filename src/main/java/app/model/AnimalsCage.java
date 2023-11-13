@@ -22,4 +22,9 @@ public class AnimalsCage {
         System.out.println(timer.getTime());
         System.out.println("________________________");
     }
+
+//тест попросил создать
+    public Timer getTimer() {
+        return timer;
+    }
 }
